@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react'
 import './Botao.css'
 
 interface BotaoPorps {
-    children: ReactElement
+    children: ReactElement | string
 }
 
 const Botao = (props: BotaoPorps) => {
